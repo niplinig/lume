@@ -26,6 +26,6 @@ jobs:
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: huge-badger-42
+          project: light-mole-32
           import-map: "./import_map.json"
           entrypoint: serve.ts
