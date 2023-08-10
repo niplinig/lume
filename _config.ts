@@ -1,7 +1,9 @@
 import lume from "lume/mod.ts";
 import pug from "lume/plugins/pug.ts";
 
-const site = lume();
+const site = lume({
+    prettyUrls: true,
+});
 
 // optimize svgs
 // site.use(svgo());
